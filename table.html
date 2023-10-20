@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблицы</title>
+</head>
+
+<body>
+    <p>
+        <a href="index.html">Перейти на главную</a>
+    </p>
+    <table border="1">
+        <caption>Заголовок таблицы</caption>
+        <tr>
+            <td>1 ячейка в 1 строке</td>
+            <td>2 ячейка в 1 строке</td>
+        </tr>
+        <tr>
+            <td>1 ячейка во 2 строке</td>
+            <td>2 ячейка во 2 строке</td>
+        </tr>
+    </table>
+    <br>
+    <table border="1">
+        <caption>Расписание занятий</caption>
+        <thead>
+            <tr>
+                <th>№ n/n</th>
+                <th>Понедельник</th>
+                <th> Среда</th>
+                <th>Пятница</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4" align="center">1 полугодие</td>
+
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td rowspan="2">Математика</td>
+                <td>Литература</td>
+                <td>Информатика</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Химия</td>
+                <td>Физкультура</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Физика</td>
+                <td>География</td>
+                <td>Биология</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>История</td>
+                <td>ОБЖ</td>
+                <td>Русский язык</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td colspan="4" align="center">2 полугодие</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td rowspan="2">Математика</td>
+                <td>Литература</td>
+                <td>Информатика</td>
+            </tr>
+            <tr>
+                <td>2</td>
+
+                <td>Химия</td>
+                <td>Физкультура</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Физика</td>
+                <td>География</td>
+                <td>Биология</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>История</td>
+                <td>ОБЖ</td>
+                <td>Русский язык</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" align="center">Всего уроков за год</td>
+                <td colspan="3" align="">150</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+
+</html>

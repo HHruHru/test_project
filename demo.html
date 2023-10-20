@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Демо</title>
+</head>
+
+<body>
+    <a href="index.html">Перейти на главную</a>
+    <p>
+        <a href="https://delfa72.ru/">
+            <!--width-ширина; height-высота-->
+            <img src="images/logo.png" alt="Логотип Дельфы" width="300">
+        </a>
+    </p>
+    <form action="">
+        <p>
+            Логин <input type="text" name="login" placeholder="user@gmail.com" required>
+        </p>
+        <p>
+            Пароль <input type="password" name="pass" placeholder="Введите пароль">
+        </p>
+
+        <h3>Укажите интересы</h3>
+        <p>
+            <label><input type="checkbox" name="interest" value="sport">Спорт</label> <br>
+            <label><input type="checkbox" name="interest" value="programmer">Программирование</label> <br>
+            <label><input type="checkbox" name="interest" value="games">Игры</label>
+        </p>
+        <h3>Способ оплаты</h3>
+        <p>
+            <input type="radio" name="pay" value="card">Карта <br>
+            <input type="radio" name="pay" value="QR">QR-код <br>
+            <input type="radio" name="pay" value="cash">Наличными
+        </p>
+        <p>
+            <textarea name="comment" cols="50" rows="10" placeholder="Введите комментарий"></textarea>
+        </p>
+        <p>
+            <select name="city">
+                <option value="tyumen">Тюмень</option>
+                <option value="moscow">Москва</option>
+                <option value="tyumen">Тюмень</option>
+            </select>
+        </p>
+        <p>
+            <input type="submit" value="Отправить">
+        </p>
+    </form>
+</body>
+
+</html>
